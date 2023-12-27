@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Change font type */
+            background-color: #f2f2f2; /* Background color of the page */
+            color: #333; /* Text color */
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+            background-color: white; /* Background color of the container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image {
+            width: 25%;
+            border-radius: 50%; /* Make the image circular */
+        }
+        textarea {
+            width: 90%; /* Make the textarea wider */
+            padding: 10px; /* Add some padding inside the textarea */
+            border: 1px solid #ddd; /* Add a border to the textarea */
+            border-radius: 5px; /* Round the corners of the textarea */
+            margin-top: 10px;
+        }
+        .submit-button {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .submit-button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333; /* Dark grey color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/static/imagen3.jpg" alt="Image" class="image">
+        <h2>Spam Detector</h2>
+        <p>Please enter your email:</p>
+        <form action="/predict" method="post">
+            <textarea name="email" rows="10" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+        <div class="result">
+            Spam probability: <span id="probability">{{ probability|default('0') }}</span>%
+        </div>
+        
+    </div>
+</body>
+</html>
