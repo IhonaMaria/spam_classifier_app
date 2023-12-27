@@ -35,8 +35,7 @@ If you want to run the project, this information may be useful:
 - templates: HTML code for the front-end
 
 ## Results 
+Below you can see the final result. You can click to the image to see a video demonstration.
 
 [![Video Screenshot](spam.png)](https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing)
-https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing
 
-https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing)https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing "Watch the Video")
