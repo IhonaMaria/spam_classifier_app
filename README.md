@@ -36,4 +36,4 @@ If you want to run the project, this information may be useful:
 
 ## Results 
 
-![imagen](https://github.com/IhonaMaria/spam_classifier_app/assets/119692820/b463206f-8cad-4953-8af1-0b8cc6b0c6f5)
+[![Video Screenshot](spam.png)]([https://drive.google.com/file/d/1PIDUSUmiQWHces29LxnNRMS7mXF395Fp/view?usp=sharing](https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing)https://drive.google.com/file/d/1PeKYUGd62F7ltyRqnRoeCmv6DydKiCge/view?usp=sharing "Watch the Video")
